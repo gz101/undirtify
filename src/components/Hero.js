@@ -11,6 +11,7 @@ const Hero = () => {
       </h1>
       <Link 
         className='py-6 px-10 bg-yellow-400 rounded-full text-3xl hover:bg-yellow-200 transition duration-300 ease-in-out flex items-center animate-bounce'
+        to='/start'
       >
         Start Logging
         <svg 
