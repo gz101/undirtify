@@ -88,10 +88,11 @@ const ContactForm = () => {
         <div 
           className='relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80'
         >
-          <form action='#' className='flex flex-col space-y-4'>
+          <form method='post' action='mailto:ga.work.au@gmail.com' className='flex flex-col space-y-4'>
             <div>
               <label for='' className='text-sm'>Your Name</label>
               <input 
+                name='name'
                 type='text' 
                 placeholder='Your Name' 
                 className='ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-yellow-300' 
@@ -100,6 +101,7 @@ const ContactForm = () => {
             <div>
               <label for='' className='text-sm'>Email Address</label>
               <input 
+                name='email'
                 type='email' 
                 placeholder='Email Address' 
                 className='ring-1 ring-gray-300 w-full rounded-md px-4 mt-2 py-2 outline-none focus:ring-2 focus:ring-yellow-300' 
@@ -108,6 +110,7 @@ const ContactForm = () => {
             <div>
               <label for='' className='text-sm'>Message</label>
               <textarea 
+                name='message'
                 type='email' 
                 placeholder='Message'
                 rows='4'
