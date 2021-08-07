@@ -29,6 +29,7 @@ const Hero = () => {
           />
         </svg>
       </Link>
+      <span className='my-8 font-extrabold'>Geological borehole recording made clean</span>
     </div>
   )
 }
