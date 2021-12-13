@@ -12,6 +12,7 @@ const Log = () => {
         Create Log
       </h1>
       <Form />
+      <br />
     </div>
   )
 }
